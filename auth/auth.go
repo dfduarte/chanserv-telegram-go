@@ -6,12 +6,12 @@ import (
 	tb "gopkg.in/tucnak/telebot.v2"
 )
 
-var Bot_settings = tb.Settings{
-	Token: "xxxxxxxxxxxx",
+var botSettings = tb.Settings{
+	Token: "649212493:AAEvogFc9QKKUOR7tEXWfyxn9V4cI7Qm2XE",
 	// You can also set custom API URL. If field is empty it equals to "https://api.telegram.org"
 	Poller: &tb.LongPoller{Timeout: 10 * time.Second},
 }
 
 func GetConnection() (*tb.Bot, error) {
-	return tb.NewBot(Bot_settings)
+	return tb.NewBot(botSettings)
 }
