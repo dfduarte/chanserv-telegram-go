@@ -7,7 +7,7 @@ import (
 )
 
 var botSettings = tb.Settings{
-	Token: "649212493:AAEvogFc9QKKUOR7tEXWfyxn9V4cI7Qm2XE",
+	Token: "xxxxxxx",
 	// You can also set custom API URL. If field is empty it equals to "https://api.telegram.org"
 	Poller: &tb.LongPoller{Timeout: 10 * time.Second},
 }
